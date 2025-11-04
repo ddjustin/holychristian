@@ -1,0 +1,188 @@
+.main {
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.logoText {
+  font-size: 1.45rem;
+  color: var(--color-main);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.holyConsumptionText {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8ecc5;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.difficultSoulText {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #9c5917;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+}
+
+.donateProceedsText {
+  font-size: 0.9rem;
+  color: var(--color-main);
+}
+
+.text {
+  font-size: 1.25rem;
+  color: var(--color-main);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.coverWrapper {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.contents {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.thickPrimaryText {
+  color: white;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.detailMessages {
+  margin-top: 28;
+}
+
+.detailMessage {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-top: 4;
+}
+
+.bibleMessages {
+  margin-top: 28;
+}
+
+.bibleMessage {
+  font-size: 14;
+  padding-top: 2;
+}
+
+.bibleReference {
+  font-size: 14;
+  margin-top: 8;
+}
+
+.ctaButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: white;
+  color: #3e2c23;
+  border: none;
+  padding: 20px 32px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.ctaButton:hover {
+  background-color: var(--color-main);
+  color: white;
+}
+.footer {
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+}
+
+.footerCompanyName {
+  font-size: 18;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .logoText {
+    font-size: 2.05rem;
+  }
+
+  .text {
+    font-size: 1.75rem;
+  }
+
+  .overlayText {
+    padding: 60px 6%;
+  }
+
+  .message p {
+    font-size: 2rem;
+    margin-bottom: 32px;
+  }
+
+  .donateProceedsText {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,225 @@
+.container {
+  font-family: "Pretendard", sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  font-family: "Pretendard", sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* ✅ Hero 영역 */
+.heroSection {
+  position: relative;
+  width: 100%;
+  max-width: 48%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* 하늘색 박스 (텍스트 오버레이) */
+.heroOverlay {
+  position: absolute;
+  top: 54;
+  left: 0;
+  width: 100%;
+  background: rgba(79, 129, 189, 0.9); /* 하늘색 반투명 */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.heroText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.heroSubtitle {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.heroPrice {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* 소개 */
+.introSection {
+  max-width: 700px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.note {
+  color: #555;
+  font-size: 0.9rem;
+}
+.introTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.introTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.introText {
+  background-color: var(--color-main);
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-top: 18px;
+}
+
+/* 섹션 */
+.section {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+/* 단계 */
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.reverse {
+  flex-direction: column-reverse;
+}
+
+.stepText h4 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.stepText p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.stepImage {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 768px) {
+  .step {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .stepText {
+    flex: 1;
+    max-width: 60%;
+  }
+}
+
+/* 리스트 */
+.list,
+.numberList {
+  color: #555;
+  margin-top: 1rem;
+  line-height: 1.8;
+  padding-left: 1.2rem;
+}
+
+/* 참여 섹션 */
+.joinSection {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.smallText {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.joinButton {
+  margin: 2.5rem 0;
+  background-color: var(--color-main);
+  color: white;
+  padding: 1.4rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.joinButton:hover {
+  background-color: #1e40af;
+}
+
+/* 푸터 */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #eee;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.lastMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastMessageText {
+  font-size: 20px;
+  font-weight: 700;
+}
