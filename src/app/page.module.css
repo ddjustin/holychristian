@@ -13,7 +13,7 @@
 
 .logoText {
   font-size: 1.45rem;
-  color: var(--color-main);
+  color: var(--primary);
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -41,12 +41,12 @@
 
 .donateProceedsText {
   font-size: 0.9rem;
-  color: var(--color-main);
+  color: var(--primary);
 }
 
 .text {
   font-size: 1.25rem;
-  color: var(--color-main);
+  color: var(--primary);
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -142,7 +142,7 @@
 }
 
 .ctaButton:hover {
-  background-color: var(--color-main);
+  background-color: var(--primary);
   color: white;
 }
 .footer {

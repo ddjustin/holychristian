@@ -103,7 +103,9 @@ export default function Home() {
             </div>
             <div className={styles.bibleReference}>마태복음 25:40</div>
           </div>
-          <div className={styles.ctaButton}>연인 만나기</div>
+          <Link href="/date" className={styles.ctaButton}>
+            연인 만나기
+          </Link>
         </div>
       </section>
       <div className={styles.footer}>

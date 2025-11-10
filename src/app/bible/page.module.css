@@ -8,13 +8,6 @@
   align-items: center;
 }
 
-.container {
-  font-family: "Pretendard", sans-serif;
-  color: #333;
-  background: #fff;
-  line-height: 1.6;
-}
-
 /* ✅ Hero 영역 */
 .heroSection {
   position: relative;
@@ -94,7 +87,7 @@
 }
 
 .introText {
-  background-color: var(--color-main);
+  background-color: var(--primary);
   color: white;
   font-size: 0.95rem;
   line-height: 1.8;
@@ -184,7 +177,7 @@
 
 .joinButton {
   margin: 2.5rem 0;
-  background-color: var(--color-main);
+  background-color: var(--primary);
   color: white;
   padding: 1.4rem 1.8rem;
   font-size: 1rem;

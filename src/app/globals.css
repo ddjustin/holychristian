@@ -1,9 +1,11 @@
 :root {
   /* 🎨 Holy 브랜드 컬러 */
-  --color-main: #5899d0; /* 깊은 갈색 - 거룩, 안정감 */
+  --primary: #5899d0;
 
   /* 텍스트 컬러 */
   --text-primary: #1e2d3d;
+
+  --date-primary: #4f88bc;
 
   /* 배경 컬러 */
   --bg-light: #ffffff;
